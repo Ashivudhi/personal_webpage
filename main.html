@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ashivudhi Erro Remaider</title>
+    <meta name="description" content="Personal Webpage" />
+    <meta name="author" content="Ashivudhi Erro Remaider" />
+    <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/241/man-technologist-light-skin-tone_1f468-1f3fb-200d-1f4bb.png">
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+            href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css"
+            rel="stylesheet"
+    />
+    <link
+            href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
+            rel="stylesheet"
+    />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap"
+            rel="stylesheet"
+    />
+    <link
+            href="github-widget/github-widget.css"
+            rel="stylesheet"
+            type="text/css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<div class="container-sm" id="profile">
+    <img id="profile-image" src="images/avator.jpg" alt="Profile image" />
+    <br /><br />
+    <div id="name">Ashivudhi Erro Remaider</div>
+    <br />
+    <h4>23 years old Namibian</h4>
+    <p>
+        bachelors degree in Computer Science (Software Development Strand) final year 
+        Student at Namibian University of Science and Technology.
+    </p>
+</div>
+
+<!-- Tab links -->
+<div class="tab">
+    <button class="tablinks active" onclick="setInfo(event, 'about')">
+        ABOUT ME
+    </button>
+    <button class="tablinks" onclick="setInfo(event, 'projects')">
+        PROJECTS
+    </button>
+    <button class="tablinks" onclick="setInfo(event, 'setup')">
+        PC SETUP
+    </button>
+</div>
+
+<div class="container-md" id="terminal-padded">
+    <div id="terminal">
+        <div id="app" class="container"></div>
+    </div>
+</div>
+
+<div class="container-md tabcontent" id="projects">
+    <div
+            class="github-widget"
+            data-user="Ashivudhi"
+            data-options='{"limit":6}'
+    ></div>
+</div>
+
+<div id="about" class="tabcontent">
+    <div id="links">
+        <div class="title">Find me at</div>
+        <div class="container-sd" id="icons">
+            <a href="https://github.com/Ashivudhi"
+            ><span><i class="icon-github icon-3x"></i></span
+            ></a>
+            <a href="https://www.linkedin.com/in/erro-remainder-ashivudhi-0a9173116/">
+                <i class="icon-linkedin-sign icon-3x"></i
+                ></a>
+            <a
+                    href="mailto:pandenierro@gmail.com?Subject=Hey, I saw your website"
+            >
+                <i class="icon-envelope icon-3x"></i
+                ></a>
+            <a href="https://twitter.com/afonso_raposo">
+                <i class="icon-twitter-sign icon-3x"></i
+                ></a>
+            <a href="https://www.youtube.com/channel/UCXmD0Jtf0VFMO_7Yz75ZiVA">
+                <i class="icon-youtube-play icon-3x"></i
+                ></a>
+        </div>
+    </div>
+
+    <div class="container-md" id="twitter-feed">
+        <div class="title">What I'm up to</div>
+        <div id="timeline">
+            <a
+                    class="twitter-timeline"
+                    data-theme="dark"
+                    data-chrome="transparent"
+                    data-height="100vh"
+                    href="https://twitter.com/erroremainder?ref_src=twsrc%5Etfw"
+            >Tweets by ASHIVUDHI ERRO REMAIDER</a>
+        </div>
+    </div>
+</div>
+
+<script
+        async
+        src="https://platform.twitter.com/widgets.js"
+        charset="utf-8"
+></script>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="github-widget/github-widget.min.js"></script>
+<script src="javascript/app.js"></script>
+</body>
+</html>
